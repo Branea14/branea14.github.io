@@ -3974,6 +3974,8 @@ a.icon {
 }
 
 .skills-section {
+	display: flex;
+	/* direction: flex-wrap; */
 	text-align: center;
 	margin: 40px 0;
 }
@@ -3994,10 +3996,10 @@ a.icon {
 	flex-direction: column;
 	align-items: center;
 	font-size: 2rem;
-	color: #555;
+	color: white;
 }
 .skill span {
 	font-size: 0.9rem;
 	margin-top: 8px;
-	color: #666;
+	color: #FFFFFF8C;
 }
