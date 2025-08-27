@@ -1,0 +1,17 @@
+.wrapper.style2.spotlights > .content.skills-section {
+  padding: 0;          /* <-- this is the “margin” you’re seeing */
+  margin: 0;
+}
+
+/* force icon/text color inside your skills block */
+.wrapper.style2.spotlights > .content.skills-section .skill,
+.wrapper.style2.spotlights > .content.skills-section .skill i,
+.wrapper.style2.spotlights > .content.skills-section .skill span {
+  color: #fff;         /* or any color you like */
+  opacity: 1;          /* some themes lower opacity on content */
+}
+
+/* optional: tighten the grid spacing */
+.skills-grid {
+  gap: 12px;
+}
