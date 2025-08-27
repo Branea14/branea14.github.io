@@ -3953,3 +3953,18 @@ input, select, textarea {
 a.icon {
 	font-size: 24px;
 }
+
+.download-link-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4caf50; /* or your theme color */
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.download-link-button:hover {
+  background-color: #45a049;
+}
