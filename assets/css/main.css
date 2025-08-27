@@ -3977,7 +3977,7 @@ a.icon {
 	display: flex;
 	/* direction: flex-wrap; */
 	text-align: center;
-	margin: 40px 0;
+	/* margin: 40px 0; */
 }
 .skills-title {
 	font-size: 1.8rem;
