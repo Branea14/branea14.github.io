@@ -46,6 +46,17 @@
 											<span class="label">Email</span>
 										</a>
 									</li>
+
+									<script>
+										const copyEmail = (event) => {
+											event.preventDefault();
+											const email = event.currentTarget.dataset.email
+
+											navigator.clipboard.writeText(email).then(() => {
+												alert("Copied email: " + email)
+											})
+										}
+									</script>
 								</ul>
 							</ul>
 
@@ -68,7 +79,7 @@
 
 				<!-- One -->
 					<section id="one" class="wrapper style2 spotlights">
-						<section>
+						<!-- <section>
 							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
@@ -79,7 +90,7 @@
 									</ul>
 								</div>
 							</div>
-						</section>
+						</section> -->
 						<section>
 							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
 							<div class="content">
