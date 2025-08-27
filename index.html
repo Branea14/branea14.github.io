@@ -42,20 +42,22 @@
 									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 									<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 									<li>
-										<a href="#" id="myEmail" class="icon fas fa-envelope" data-email="e@gmail.com" onclick="copyEmail(event)">
+										<a href="mailto:e@gmail.com" id="emailCopy" class="icon fas fa-envelope" data-email="e@gmail.com" aria-label="Copy email to clipboard" title="Copy email">
 											<span class="label">Email</span>
 										</a>
 									</li>
 
 									<script>
-										const copyEmail = (event) => {
-											event.preventDefault();
-											const email = event.currentTarget.dataset.email
+										document.addEventListener("DOMContentLoaded", () => {
+											const el = document.getElementById("emailCopy")
+											el.addEventListener("click", async (e) => {
+												e.preventDefault()
+												const email = el.dataset.email
 
-											navigator.clipboard.writeText(email).then(() => {
+												await navigator.clipboard.writeText(email)
 												alert("Copied email: " + email)
 											})
-										}
+										})
 									</script>
 								</ul>
 							</ul>
