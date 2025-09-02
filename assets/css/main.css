@@ -3000,7 +3000,7 @@ input, select, textarea {
 		-moz-flex-direction: row;
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
-		flex-direction: row;
+		flex-direction: column;
 		min-height: 22.5em;
 	}
 
@@ -3012,7 +3012,9 @@ input, select, textarea {
 			background-position: center center;
 			background-size: cover;
 			border-radius: 0;
-			display: block;
+			/* display: block; */
+			display: flex;
+			flex-wrap: wrap;
 			position: relative;
 			width: 25em;
 		}
@@ -3254,6 +3256,7 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			background-color: #5052b5;
+			padding: 50px;
 		}
 
 		.wrapper.style2-alt {
@@ -3988,7 +3991,7 @@ a.icon {
 .skills-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-	gap: 20px;
+	gap: 40px;
 	justify-items: center;
 }
 .skill {
