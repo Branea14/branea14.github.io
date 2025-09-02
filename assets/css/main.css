@@ -26,7 +26,8 @@ section, summary, time, mark, audio, video {
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+	display: flex;
+}
 
 body {
 	line-height: 1;
@@ -3257,6 +3258,7 @@ input, select, textarea {
 		.wrapper.style2 {
 			background-color: #5052b5;
 			padding: 50px;
+			justify-content: space-between;
 		}
 
 		.wrapper.style2-alt {

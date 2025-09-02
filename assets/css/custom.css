@@ -1,5 +1,5 @@
 .wrapper.style2.spotlights > .content.skills-section {
-  padding: 0;          /* <-- this is the “margin” you’re seeing */
+  padding: 30px;          /* <-- this is the “margin” you’re seeing */
   margin: 0;
 }
 
@@ -12,7 +12,7 @@
 
 /* optional: tighten the grid spacing */
 .skills-grid {
-  gap: 12px;
+  gap: 30px;
 }
 
 .wrapper.style2.spotlights > .content.skills-section .skill span {
