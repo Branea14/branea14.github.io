@@ -3260,6 +3260,7 @@ input, select, textarea {
 			background-color: #5052b5;
 			padding: 50px;
 			justify-content: space-between;
+			flex-direction: column;
 		}
 
 		.wrapper.style2-alt {
