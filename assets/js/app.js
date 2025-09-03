@@ -1,4 +1,4 @@
-import { projects } from "./featuredWork";
+import { projects } from "./featuredWork.js";
 
 const grid = document.querySelector("#featured-work");
 
