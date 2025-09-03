@@ -4058,5 +4058,5 @@ a.icon {
 }
 
 .technologies-section {
-	display: flex;
+	flex-direction: column;
 }
