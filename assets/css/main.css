@@ -3003,6 +3003,7 @@ input, select, textarea {
 		-ms-flex-direction: row;
 		flex-direction: column;
 		min-height: 22.5em;
+		padding-right: 50px;
 	}
 
 		body.is-ie .spotlights > section {
@@ -4007,4 +4008,50 @@ a.icon {
 	font-size: 0.9rem;
 	margin-top: 8px;
 	color: #FFFFFF8C;
+}
+
+.skills-description {
+	font: 19px / 23px Montserrat, sans-serif
+}
+
+.skill-bars {
+  font-size: 28px;
+  width: 40%;
+  display: flex;
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 2rem;
+}
+
+.skills-container > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+.skills-heading {
+  font-size: 56px;
+  font-weight: 400;
+}
+.bar-section {
+	line-height: 3.5vw;
+}
+
+.meter {
+  height: 20px;
+  position: relative;
+  background: rgb(243, 239, 239);
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+}
+.meter > span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgb(243, 239, 239);
+  position: relative;
+  overflow: hidden;
 }
