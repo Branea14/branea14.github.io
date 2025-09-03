@@ -3996,6 +3996,14 @@ a.icon {
 	color: #bbb;
 }
 
+.skills-title-no-header {
+	font-size: 2rem;
+	font-weight: bold;
+	/* margin-bottom: 20px; */
+	/* color: #333; */
+	color: #bbb;
+}
+
 .skills-grid {
 	display: grid;
 	/* grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); */
