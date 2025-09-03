@@ -3994,13 +3994,17 @@ a.icon {
 	margin-bottom: 20px;
 	color: #333;
 }
+
 .skills-grid {
 	display: grid;
 	/* grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); */
 	  grid-template-columns: repeat(4, minmax(0, 1fr));
 	/* gap: 40px; */
 	justify-items: center;
+	margin: auto;
+	padding: 30px;
 }
+
 .skill {
 	display: flex;
 	flex-direction: column;
