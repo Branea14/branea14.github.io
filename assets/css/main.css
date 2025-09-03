@@ -3985,6 +3985,7 @@ a.icon {
 	/* direction: flex-wrap; */
 	text-align: center;
 	/* margin: 40px 0; */
+	margin-bottom: 40px;
 }
 .skills-title {
 	font-size: 1.8rem;
@@ -3994,8 +3995,9 @@ a.icon {
 }
 .skills-grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-	gap: 40px;
+	/* grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); */
+	  grid-template-columns: repeat(5, minmax(0, 1fr));
+	/* gap: 40px; */
 	justify-items: center;
 }
 .skill {
@@ -4012,7 +4014,17 @@ a.icon {
 }
 
 .skills-description {
-	font: 19px / 23px Montserrat, sans-serif
+	font: 19px / 23px Montserrat, sans-serif;
+  list-style: disc;
+  margin: 0;               /* remove extra top gap */
+  padding-left: 1.5rem;
+}
+
+.skills-list li {
+  margin-bottom: 1rem;     /* space between bullets */
+  line-height: 1.6;
+  font-size: 1.125rem;     /* ~18px; match your template size */
+  color: #c7c7ff;          /* or whatever your light text color is */
 }
 
 .skill-bars {
@@ -4058,8 +4070,12 @@ a.icon {
 }
 
 .technologies-section {
-	display: flex;
-	flex-direction: row;
+	/* display: flex;
+	flex-direction: row; */
+	display: grid;
+	grid-template-columns: 1.2fr 1fr; /* text left, icons right */
+	gap: 3rem;
+	align-items: start;
 }
 
 .skills-paragraph {
