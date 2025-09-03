@@ -4020,7 +4020,7 @@ a.icon {
   padding-left: 1.5rem;
 }
 
-.skills-list li {
+.skills-description li {
   margin-bottom: 1rem;     /* space between bullets */
   line-height: 1.6;
   font-size: 1.125rem;     /* ~18px; match your template size */
