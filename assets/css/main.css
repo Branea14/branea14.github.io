@@ -4150,7 +4150,7 @@ a.icon {
 }
 
 .card-title {
-  /* color: $titleColor; */
+	color: black;
   font-size: 22px;
   line-height: 24px;
   font-weight: 700;
