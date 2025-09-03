@@ -1,6 +1,6 @@
 import { projects } from "./featuredWork";
 
-const grid = document.querySelector("#projects-grid");
+const grid = document.querySelector("#featured-work");
 
 grid.innerHTML = projects.map(p => `
   <article class="project-card">
