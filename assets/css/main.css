@@ -4115,6 +4115,7 @@ a.icon {
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.25s ease;
+  color: black;
 }
 
 .project-card:hover {
