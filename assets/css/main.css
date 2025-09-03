@@ -4171,3 +4171,9 @@ a.icon {
   cursor: pointer;
   transition: 0.2s ease-in;
 }
+
+
+.projects-container-header {
+	    width: 100%;
+    padding: 60px;
+}
