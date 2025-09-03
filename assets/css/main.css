@@ -3989,7 +3989,7 @@ a.icon {
     background-color: rgba(0, 0, 0, 0.05);
 }
 .skills-title {
-	font-size: 1.8rem;
+	font-size: 2rem;
 	font-weight: bold;
 	margin-bottom: 20px;
 	/* color: #333; */
@@ -4053,6 +4053,8 @@ a.icon {
 } */
 .bar-section {
 	line-height: 3.5vw;
+		    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
 
 .meter {
@@ -4090,7 +4092,7 @@ a.icon {
 	flex-direction: column;
 }
 
-.proficiency-bar-skill {
+/* .proficiency-bar-skill {
 	    margin-block-start: 1em;
     margin-block-end: 1em;
-}
+} */
