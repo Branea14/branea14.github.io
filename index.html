@@ -143,9 +143,72 @@
 
 				<!-- Two -->
 					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>What we do</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+						<div className="main" id="projects">
+							<div>
+								<h1 className="skills-title">Featured Work</h1>
+								<p className="skills-title">SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH</p>
+
+								<div id="featured-work" className="projects-container">
+									<!-- {projects.map((project, i) => {
+										return (
+											<div
+											key={i}
+												className={
+													isDark
+													? "dark-mode project-card project-card-dark"
+													: "project-card project-card-light"
+													}
+													>
+													{project.image ? (
+														<div className="project-image">
+															<img
+															src={project.image}
+															alt={project.projectName}
+															className="card-image"
+															></img>
+														</div>
+														) : null}
+
+														<div className="project-detail">
+															<h5 className={isDark ? "dark-mode card-title" : "card-title"}>
+																{project.projectName}
+															</h5>
+
+															<p className={isDark ? "dark-mode card-subtitle" : "card-subtitle"}>
+																{project.projectDesc}
+															</p>
+
+															{project.footerLink ? (
+																<div className="project-card-footer">
+																	{project.footerLink.map((link, i) => {
+																		return (
+																			<span
+																			key={i}
+																			className={
+																				isDark ? "dark-mode project-tag" : "project-tag"
+																				}
+																				onClick={() => openUrlInNewTab(link.url)}
+																				>
+																				{link.name}
+																			</span>
+																			);
+																			})}
+																		</div>
+																		) : null}
+																	</div>
+																</div>
+																);
+																})} -->
+															</div>
+														</div>
+													</div>
+
+
+
+
+													<!-- <div class="inner">
+														<h2>What we do</h2>
+														<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
 							<div class="features">
 								<section>
 									<span class="icon solid major fa-code"></span>
@@ -181,8 +244,9 @@
 							<ul class="actions">
 								<li><a href="generic.html" class="button">Learn more</a></li>
 							</ul>
-						</div>
+						</div> -->
 					</section>
+					<script type="module" src="/assets/js/app.js"></script>
 
 				<!-- Three -->
 					<section id="three" class="wrapper style1 fade-up">
