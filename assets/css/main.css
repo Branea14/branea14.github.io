@@ -3986,6 +3986,7 @@ a.icon {
 	text-align: center;
 	/* margin: 40px 0; */
 	margin-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.05);
 }
 .skills-title {
 	font-size: 1.8rem;
@@ -3996,7 +3997,7 @@ a.icon {
 .skills-grid {
 	display: grid;
 	/* grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); */
-	  grid-template-columns: repeat(5, minmax(0, 1fr));
+	  grid-template-columns: repeat(4, minmax(0, 1fr));
 	/* gap: 40px; */
 	justify-items: center;
 }
