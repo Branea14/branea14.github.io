@@ -4061,3 +4061,8 @@ a.icon {
 	display: flex;
 	flex-direction: row;
 }
+
+.skills-paragraph {
+	display: flex;
+	flex-direction: column;
+}
