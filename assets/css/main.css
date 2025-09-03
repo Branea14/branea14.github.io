@@ -3992,7 +3992,8 @@ a.icon {
 	font-size: 1.8rem;
 	font-weight: bold;
 	margin-bottom: 20px;
-	color: #333;
+	/* color: #333; */
+	color: white;
 }
 
 .skills-grid {
@@ -4046,10 +4047,10 @@ a.icon {
   flex: 1;
   margin-bottom: 30px;
 }
-.skills-heading {
+/* .skills-heading {
   font-size: 56px;
   font-weight: 400;
-}
+} */
 .bar-section {
 	line-height: 3.5vw;
 }
@@ -4057,7 +4058,8 @@ a.icon {
 .meter {
   height: 20px;
   position: relative;
-  background: rgb(243, 239, 239);
+  /* background: rgb(243, 239, 239); */
+  background: #f3efef;
   -moz-border-radius: 25px;
   -webkit-border-radius: 25px;
   border-radius: 25px;
@@ -4069,7 +4071,7 @@ a.icon {
   border-bottom-right-radius: 6px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  background-color: rgb(243, 239, 239);
+  background-color: #aaa5ff;
   position: relative;
   overflow: hidden;
 }
