@@ -4,7 +4,7 @@ import fairjobLogo from "../../images/fair_job.png"
 
 export const projects = [
     {
-      image: ptLogo,
+      // image: ptLogo,
       projectName: "Power Tots Inc. - TotKit",
       projectDesc: "Internal equipment management system with real-time equipment status, Slack-based image approvals, and check-in/out with audit logs",
       projectTech: "React (Vite) • Express • Prisma/PostgreSQL • Supabase • Docker • Cloud Run • GCP IAP",
@@ -15,7 +15,7 @@ export const projects = [
       ]
     },
     {
-      image: wonderhoodLogo,
+      // image: wonderhoodLogo,
       projectName: "Wonderhood",
       projectDesc: "Wonderhood lets homeschool families enroll in extracurriculars and manage profiles. Instructors see class rosters with parent/emergency contacts, and admins manage events and send email blasts.",
       projectTech: "FastAPI • JWT • PostgreSQL • React (Next.js)",
@@ -26,7 +26,7 @@ export const projects = [
       ]
     },
     {
-      image: fairjobLogo,
+      // image: fairjobLogo,
       projectName: "LVC Solutions - Fair Job",
       projectDesc: "AI-assisted job portal with face verification to deter fake accounts/postings, skills-based matching, and recruiter tools.",
       projectTech: "Next.js (TypeScript) • Firebase Auth • Firestore • AWS Rekognition",
