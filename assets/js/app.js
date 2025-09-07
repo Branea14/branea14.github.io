@@ -10,7 +10,7 @@ grid.innerHTML = projects.map(p => `
       </div>` : ""}
 
     <div class="project-detail">
-      <h5 class="card-title">${p.projectName}</h5>
+      <h5 class="card-title">${p.projectName} ${p.private ? "🔒" : ""}</h5>
       <p class="card-subtitle">${p.projectDesc}</p>
       ${p.projectTech ? `<p class="card-tech">${p.projectTech}</p>` : ""}
 
