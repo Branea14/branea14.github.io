@@ -15,7 +15,7 @@ export const projects = [
       ]
     },
     {
-      // image: wonderhoodLogo,
+      image: "images/logo.png",
       projectName: "Wonderhood",
       projectDesc: "Wonderhood lets homeschool families enroll in extracurriculars and manage profiles. Instructors see class rosters with parent/emergency contacts, and admins manage events and send email blasts.",
       projectTech: "FastAPI • JWT • PostgreSQL • React (Next.js)",
@@ -25,7 +25,7 @@ export const projects = [
       ]
     },
     {
-      // image: fairjobLogo,
+      image: "image/fair_job.png",
       projectName: "LVC Solutions - Fair Job",
       projectDesc: "AI-assisted job portal with face verification to deter fake accounts/postings, skills-based matching, and recruiter tools.",
       projectTech: "Next.js (TypeScript) • Firebase Auth • Firestore • AWS Rekognition",
