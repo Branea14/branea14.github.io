@@ -2,7 +2,7 @@ export const projects = [
     {
       image: "images/PT_logo.jpg",
       projectName: "Power Tots Inc. - TotKit",
-      projectDesc: "Internal equipment management system with real-time equipment status, Slack-based image approvals, and check-in/out with audit logs",
+      projectDesc: "Internal equipment management for instructors—real-time status, check-in/out with audit logs, and Slack-based image approvals",
       projectTech: "React (Vite) • Express • Prisma/PostgreSQL • Supabase • Docker • Cloud Run • GCP IAP",
       private: true,
       footerLink: [
@@ -13,7 +13,7 @@ export const projects = [
     {
       image: "images/logo.png",
       projectName: "Wonderhood",
-      projectDesc: "Wonderhood lets homeschool families enroll in extracurriculars and manage profiles. Instructors see class rosters with parent/emergency contacts, and admins manage events and send email blasts.",
+      projectDesc: "Enrollment for homeschool families, child profiles, instructor rosters with parent/emergency contacts, and admin email blasts & event management",
       projectTech: "FastAPI • JWT • PostgreSQL • React (Next.js)",
       private: false,
       footerLink: [
@@ -23,7 +23,7 @@ export const projects = [
     {
       image: "images/fair_job.png",
       projectName: "LVC Solutions - Fair Job",
-      projectDesc: "AI-assisted job portal with face verification to deter fake accounts/postings, skills-based matching, and recruiter tools.",
+      projectDesc: "Skills-first job portal with AI matching and face verification (AWS Rekognition) to reduce fake accounts/postings; recruiter tools",
       projectTech: "Next.js (TypeScript) • Firebase Auth • Firestore • AWS Rekognition",
       private: false,
       footerLink: [

@@ -4132,7 +4132,7 @@ a.icon {
 
 .project-image {
   position: relative;
-  height: 250px;
+  height: 160px;
   overflow: hidden;
   display: flex;
   justify-content: center;
