@@ -1,4 +1,9 @@
-import { projects } from "./featuredWork.js";
+console.log("app.js loaded");
+import { projects } from "./featuredWork.js?v=8";
+const grid = document.querySelector("#featured-work");
+console.log("grid?", !!grid, "projects:", projects?.length);
+grid.innerHTML = `<div style="padding:12px;background:#222;color:#fff">Loaded ${projects?.length ?? 0} projects</div>`;
+
 
 // const grid = document.querySelector("#featured-work");
 
