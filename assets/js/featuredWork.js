@@ -21,8 +21,7 @@ export const projects = [
       projectTech: "FastAPI • JWT • PostgreSQL • React (Next.js)",
       private: false,
       footerLink: [
-        { name: "Visit Website", // url: "http://nextu.se/"
-        }
+        { name: "Visit Website",  url: "http://nextu.se/" }
       ]
     },
     {
