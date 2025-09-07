@@ -4,7 +4,7 @@
 
 export const projects = [
     {
-      // image: ptLogo,
+      image: "images/PT_logo.jpg",
       projectName: "Power Tots Inc. - TotKit",
       projectDesc: "Internal equipment management system with real-time equipment status, Slack-based image approvals, and check-in/out with audit logs",
       projectTech: "React (Vite) • Express • Prisma/PostgreSQL • Supabase • Docker • Cloud Run • GCP IAP",
