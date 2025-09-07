@@ -1,7 +1,3 @@
-// import ptLogo from "../../images/PT_logo.jpg"
-// import wonderhoodLogo from "../../images/logo.png"
-// import fairjobLogo from "../../images/fair_job.png"
-
 export const projects = [
     {
       image: "images/PT_logo.jpg",
@@ -25,7 +21,7 @@ export const projects = [
       ]
     },
     {
-      image: "image/fair_job.png",
+      image: "images/fair_job.png",
       projectName: "LVC Solutions - Fair Job",
       projectDesc: "AI-assisted job portal with face verification to deter fake accounts/postings, skills-based matching, and recruiter tools.",
       projectTech: "Next.js (TypeScript) • Firebase Auth • Firestore • AWS Rekognition",
